@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workshop-dark.svg">
-  <img src="assets/workshop-light.svg" alt="pyturtle@workshop: builds robots, rc trucks and split-flaps; code in python, typescript, c++ and luau; hardware raspberry pi, esp32, arduino, qnx; printers ender 3 to bambu p1s; flies fpv quads">
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="This year's GitHub contributions drawn as a 3D city of bars, with a language breakdown and totals">
 </picture>
 
 I build things that move, and the software that drives them. Lately that's autonomous RC trucks, a voice-controlled claw, a Roblox fighting game, and a split-flap display that's still on the bench.
