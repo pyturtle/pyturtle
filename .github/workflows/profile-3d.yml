@@ -21,6 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Remove the language pie
+        run: python3 tools/strip_pie.py profile-3d-contrib
       # Commits only when the graph changed, so the repo stays active and the daily schedule keeps running.
       - name: Commit and push
         run: |
